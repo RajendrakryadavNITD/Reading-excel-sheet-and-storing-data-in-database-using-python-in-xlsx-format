@@ -1,0 +1,33 @@
+CREATE TABLE excel_sheet_data 
+(
+  id int not NULL AUTO_INCREMENT,
+  excel_id int,
+  databasecategory VARCHAR(255) NULL,
+  businessname VARCHAR(255) NULL,
+  address1 varchar(255) null,
+  address2 varchar(255) null,
+  locality varchar(255) null,
+  town varchar(255) null,
+  country varchar(255) null,
+  postcode varchar(255) null,
+  area varchar(255) null,
+  postcodearea varchar(255) null,
+  postcodesubarea varchar(255) null,
+  lineofbusiness text,
+  sicnumeric int,
+  sicdiscription varchar(255) null,
+  telephone varchar(50),
+  tps varchar(255) null,
+  fax varchar(255) null,
+  fps varchar(255) null,
+  employeesnumeric int,
+  premisestype varchar(255) null,
+  title1 varchar(255) null,
+  fname varchar(100) null,
+  sname varchar(100) null,
+  position1 varchar(255) null,
+  email varchar(255) null,
+  emailaddress varchar(50) null,
+  
+  PRIMARY KEY (id)
+  );
